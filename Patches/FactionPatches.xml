@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Anomaly</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[@Name="HoraxianBase"]/xenotypeSet/xenotypeChances</xpath>
+                    <value>
+                        <Sanguophage>0.01</Sanguophage>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+
+</Patch>
